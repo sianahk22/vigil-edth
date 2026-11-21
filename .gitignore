@@ -1,0 +1,32 @@
+# Données fournies par les organisateurs (lourdes, non redistribuables)
+data/
+
+# Image système Raspberry Pi (3 Go)
+*.img
+*.img.xz
+
+# Poids de modèles et exports (trop lourds pour Git)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+runs/
+weights/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Système / éditeurs
+.DS_Store
+.vscode/
+.idea/
